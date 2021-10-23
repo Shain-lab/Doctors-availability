@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# people-views-react
+Random people card listing app 
 
 ## Available Scripts
 
