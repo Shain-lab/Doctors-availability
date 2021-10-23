@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import SocialCard from './SocialCard';
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
       let userData;
       try{
         const response = await fetch('https://randomuser.me/api/?results=10');
-        const userData = await response.json().results;
+        userData = (await response.json()).results;
       }catch(err){
         console.log(err);
         userData = [];
@@ -19,9 +20,12 @@ function App() {
   }, []);
   return (
     <div className="App">
-      {users.map((user,index)=>(
-        <SocialCard userData={user} key={index} />  
-      ))}
+      <h1>Random Generation</h1>
+      <div className="cards-container">
+        {users.map((user, index) => (
+          <SocialCard userData={user} key={index}/>       
+        ))}
+      </div>
     </div>
   );
 }
