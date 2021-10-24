@@ -12,7 +12,7 @@ function App() {
     (async()=>{
       let userData;
       try{
-        const response = await fetch('https://randomuser.me/api/?results=10');
+        const response = await fetch('http://localhost:3001/doctors/list');
         userData = (await response.json()).results;
       }catch(err){
         console.log(err);
