@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <input className="search-box" placeholder="Search..." onInput={filterCards}/>
-      <h1>Random Generation</h1>
+      <h1>Available Doctor's</h1>
       <div className="cards-container">
         {users.map((user, index) => (
           <SocialCard userData={user} key={index}/>       

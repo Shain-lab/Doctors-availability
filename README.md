@@ -3,6 +3,12 @@ Doctors listing app with frontend library as [ReactJS](https://reactjs.org/) wit
 
 ## Available Scripts
 
+In the project/Express directory, you can run:
+
+### `node index.js`
+Runs the app on the port:3001.\
+Open [http://localhost:3001/doctors/list](http://localhost:3001/doctors/list) to view it in the browser. Returns JSON.
+
 In the project directory, you can run:
 
 ### `npm start`
@@ -13,11 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-In the project/Express directory, you can run:
-
-### `node index.js`
-Runs the app on the port:3001.\
-Open [http://localhost:3001/doctors/list](http://localhost:3001/doctors/list) to view it in the browser. Returns JSON.
 
 
 ### `npm run build`
