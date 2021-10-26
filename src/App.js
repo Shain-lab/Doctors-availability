@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <Header/>
       <Filters/>
-      <input className="search-box" placeholder="Search..." onInput={filterCards}/>
+      {/* <input className="search-box" placeholder="Search..." onInput={filterCards}/> */}
       <div className="cards-container">
         {users.map((user, index) => (
           <SocialCard userData={user} key={index}/>       
