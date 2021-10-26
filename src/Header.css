@@ -1,0 +1,27 @@
+.body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.login .nav-item .nav-link{
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+.speciality{
+    margin: 0 5% 0 20%;
+}
+.heading{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.image .navbar-brand{
+    margin: 0 8px 0 25px;
+}
+.img .navbar-brand{
+    margin:0;
+    filter: invert(100%);
+}
+.bod{
+    margin-right: 71%;
+    color: whitesmoke;
+}

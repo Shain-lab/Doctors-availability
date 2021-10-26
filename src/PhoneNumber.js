@@ -1,7 +1,8 @@
 import './PhoneNumber.css'
-const PhoneNumber = ({number, type}) => (
+const PhoneNumber = () => (
     <div className="phone">
-        <p>{type}: {number}</p>
+        <span>Next Availability</span>
+        <span>At 6:30 PM</span>
     </div>
 );
 

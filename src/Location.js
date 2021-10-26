@@ -6,7 +6,7 @@ const Location = ({location}) => {
             <p>{location.city}</p>
             <p>{location.state}</p>
             <p>{location.postcode}</p>
-            <p>{location.country}</p>
+            <p>{location.country}<span className="price">$500</span></p>
         </div>
     );
 };

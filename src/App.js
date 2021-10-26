@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import Header from './Header';
+import Filters from './Filters';
 import SocialCard from './SocialCard';
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
 
   return (
     <div className="App">
+      <Header/>
+      <Filters/>
       <input className="search-box" placeholder="Search..." onInput={filterCards}/>
       <h1>Available Doctor's</h1>
       <div className="cards-container">
