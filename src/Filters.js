@@ -1,23 +1,23 @@
-import { Navbar, NavDropdown, Nav } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 
 const Filters = ()=>{
     return(
-        <div>
+        <div className="filter">
         <Navbar bg="light" expand="lg">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <div className="speciality">
-                        <NavDropdown title="Neurology" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        </NavDropdown>
+                        <select>
+                            <option>Neurologist</option>
+                        </select>
                         </div>
-                        <NavDropdown title="Availability" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        </NavDropdown>
-                        <NavDropdown title="Bangalore" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        </NavDropdown>
+                        <select>
+                            <option>Availability</option>
+                        </select>
+                        <select>
+                            <option>Bangalore</option>
+                        </select>
                     </Nav>
                 </Navbar.Collapse>
         </Navbar>

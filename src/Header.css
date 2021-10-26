@@ -1,12 +1,28 @@
 .body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+select{
+    border: none;
+    font-size: .7rem;
+    background: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+select:first-child{
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 .login .nav-item .nav-link{
     color: whitesmoke;
     font-size: 0.9rem;
 }
+.filter{
+    margin:1% 0;
+}
 .speciality{
-    margin: 0 5% 0 20%;
+    margin: 0 5% 0 45%;
 }
 .heading{
     font-size: 1.1rem;

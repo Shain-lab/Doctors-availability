@@ -38,7 +38,6 @@ function App() {
       <Header/>
       <Filters/>
       <input className="search-box" placeholder="Search..." onInput={filterCards}/>
-      <h1>Available Doctor's</h1>
       <div className="cards-container">
         {users.map((user, index) => (
           <SocialCard userData={user} key={index}/>       

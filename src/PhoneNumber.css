@@ -1,4 +1,23 @@
-.phone{
+.availer{
+    border-top:1px solid rgb(231, 230, 230);
+    margin: 20% 0 0 -40%;
+    width: 390px;
+}
+.avail{ 
     font-size: .8rem;
-    margin: 0;
+    margin: 18% 0 0 -30%;
+}
+.now a{
+    position: relative;
+    bottom: 10px;
+    text-decoration: none;
+    margin: 0 0 5% 50%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: indianred;
+}
+.now a:hover{
+    font-size: 1.018rem;
+    font-weight: 600;
+    color: rgb(180, 43, 43);
 }
