@@ -1,5 +1,5 @@
-import './PhoneNumber.css'
-const PhoneNumber = () => (
+import './Available.css'
+const Available = () => (
     <div>
         <div className="availer"></div>
         <span className="avail">Next Availability</span><br/>
@@ -7,4 +7,4 @@ const PhoneNumber = () => (
     </div>
 );
 
-export default PhoneNumber;
+export default Available;

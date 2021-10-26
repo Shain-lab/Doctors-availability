@@ -1,5 +1,5 @@
-import './Location.css'
-const Location = ({location}) => {
+import './Profession.css'
+const Profession = ({location}) => {
     return(
         <div className="location">
             <p>{location.street.number} years experience</p>
@@ -9,4 +9,4 @@ const Location = ({location}) => {
     );
 };
 
-export default Location;
+export default Profession;
