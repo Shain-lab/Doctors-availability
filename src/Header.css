@@ -14,7 +14,7 @@ select:first-child{
     text-decoration: none;
 }
 
-.login .nav-item .nav-link{
+.login select{
     color: whitesmoke;
     font-size: 0.9rem;
 }

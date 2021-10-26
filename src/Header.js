@@ -47,11 +47,9 @@ const Header = () =>{
     </Navbar.Brand>
     </div>
         <div className="login">
-        <NavDropdown title="Login" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Contact Us</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">About Us</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">News</NavDropdown.Item>
-        </NavDropdown>
+        <select>
+                            <option>Login</option>
+                        </select>
         </div>
       </Nav>
     </Navbar.Collapse>
