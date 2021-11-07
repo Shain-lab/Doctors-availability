@@ -1,6 +1,9 @@
 # Doctors Listing Web apps.
 Doctors listing app with frontend library as [ReactJS](https://reactjs.org/) with [NodeJS](https://nodejs.org/) as backend for feeding our App with dummy data created locally with node and [Express](https://expressjs.com/).
 
+## App View
+![](https://github.com/Shain-lab/Doctors-availability/blob/master/public/BOD.png)
+
 ## Available Scripts
 
 In the project/Express directory, you can run:
@@ -19,8 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-## App View
-![](https://github.com/Shain-lab/Doctors-availability/blob/master/public/BOD.png)
+
 
 ### `npm run build`
 
